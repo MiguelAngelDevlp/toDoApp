@@ -1,0 +1,125 @@
+#form-note{
+    margin-left: 35%;
+    margin-top: -170px;
+    display: flex;
+}
+#all{
+    margin-left:10px ;
+    
+    display: flex;
+    
+}
+
+#allTwo{
+    display: flex;
+    margin-left: 670px;
+    margin-top: 12px;
+}
+
+#form-note input{
+margin-right: 8px;
+
+}
+#left{
+    margin-right: 9px;
+}
+#form-dsp{
+    display: flex;
+}
+
+#img-header{
+    margin-left: 37%;
+}
+button {
+    padding: 17px 20px;
+    border-radius: 50px;
+    /* border: 85em; */
+    border-color: hsl(261deg 50% 61%);
+    
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    /* letter-spacing: 1.5px; */
+    /* text-transform: uppercase; */
+    font-size: 15px;
+    transition: all .5s ease;
+    background-image: linear-gradient(10deg,#4cfbc2,white);
+   }
+   
+   button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 50% 61%);
+    color: black;
+    box-shadow: rgb(22, 234, 241) 0px 7px 29px 0px;
+   }
+   
+   button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(156, 243, 105) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+
+   input {
+    border: 2px solid hsl(261deg 50% 61%);
+    border-radius: 20px;
+    background-image: linear-gradient(10deg,#4cfbc2,white);
+    color:black;
+    cursor: pointer;
+    padding: 7px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    transition: all 1s;
+    max-width: 170px;
+
+   }
+   
+   input:focus {
+    outline-color: rgb(127, 170, 170);
+   }
+
+.input-note{
+    border: 2px solid hsl(261deg 50% 61%);
+    border-radius: 20px;
+    background-image: linear-gradient(10deg,#4cfbc2,white);
+    color:black;
+    cursor: pointer;
+    padding: 7px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    transition: all 1s;
+  
+}
+
+.btn-input{
+    border: 2px solid hsl(261deg 50% 61%);
+    border-radius: 20px;
+    background-image: linear-gradient(10deg,#4cfbc2,white);
+    color:black;
+    cursor: pointer;
+    padding: 7px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    transition: all 1s; 
+}
+
+ 
+
+ select{
+padding: 5px 10px;
+border: 2px solid hsl(261deg 50% 61%);
+margin:10px auto;
+border-color: rgb(127, 170, 170);
+border-radius: 10px;
+height: 34px;
+background-image: linear-gradient(10deg,#4cfbc2,white);
+  background-repeat: no-repeat, repeat;
+  }
+
+
+  /* .container-photo{
+    background-image: url( '../../assets/wallpaper.jpg');
+    z-index: -1;
+    width: 1000px;
+    background-repeat: no-repeat;
+} */

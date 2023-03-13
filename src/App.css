@@ -1,0 +1,21 @@
+.container {
+  margin: auto;
+  width: 1000px;
+  height: 800px;
+  border: 1px solid yellow;
+  background-color: red;
+  padding: 10px;
+  color: black;
+   background-image: url('./assets/wallpaper.jpg');
+
+
+}
+
+
+
+
+.add-btn {
+  float: right;
+  background-color: black;
+  color: black;
+}

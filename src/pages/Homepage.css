@@ -1,0 +1,6 @@
+#photo{
+    background-image: url( '../assets/wallpaper.jpg');
+    z-index: -1;
+    width: 1000px;
+    background-repeat: no-repeat;
+}

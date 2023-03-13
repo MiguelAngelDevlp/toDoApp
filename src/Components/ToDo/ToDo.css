@@ -1,0 +1,139 @@
+.task-end{
+    text-decoration: line-through;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
+
+.conteiner-list {
+    width: 320px;
+    height: 254px;
+    border-radius: 1em;
+    margin-top: 200px;
+    padding: 1.9rem;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: #ffffff 0px 30px 50px -12px inset, #959595 0px 18px 26px -18px inset;
+    
+}
+
+#check-name {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    width: 300px;
+    margin-left: 70px;
+}
+
+#check-name h3 {
+    color: black;
+    /* background-color: transparent; */
+    padding-left: 30px;
+    /* font-size: 35px; */
+    font-weight: 300px;
+
+}
+
+.high{
+    background-color: rgb(245, 108, 108);
+    box-shadow:#6aed8d 0px 30px 50px -12px inset, hsl(261deg 50% 61%) 0px 18px 26px -18px inset;
+    border: 1px solid rgb(43, 255, 0);
+    margin-top: 35px;
+    border-radius: 10px;
+    color: black;
+    padding: 20px;
+
+}
+
+
+#info{
+         box-shadow: hsl(261deg 50% 61%) 0px 18px 26px -18px inset, #6aed8d 0px 30px 50px -12px inset; 
+        border-radius: 10px;
+        height: fit-content;
+        padding: 10px;
+        background-color: whitesmoke;
+    
+}
+
+.medium{
+    background-color: yellow;
+    box-shadow:#6aed8d 0px 30px 50px -12px inset, hsl(261deg 50% 61%) 0px 18px 26px -18px inset;
+    border: 1px solid rgb(43, 255, 0);
+    margin-top: 35px;
+    border-radius: 10px;
+    color: black;
+    padding: 20px;
+}
+.low{
+    background-color:  #6aed8d;
+    box-shadow:#6aed8d 0px 30px 50px -12px inset, hsl(261deg 50% 61%) 0px 18px 26px -18px inset;
+    border: 1px solid rgb(43, 255, 0);
+    margin-top: 35px;
+    border-radius: 10px;
+    color: black;
+    padding: 20px;
+}
+
+.box-date {
+    /* background-color: white; */
+    border-radius: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: 18px;
+    color: black;
+   
+    padding: 15px 20px;
+    height: 130px;
+  
+}
+
+.box-date img {
+    width: 50px;
+   
+    padding-right: 10px;
+
+}
+
+
+
+#tag-task p {
+ 
+    color: white;
+}
+
+.calendar-box {
+
+    display: flex;
+    font-weight: 700;
+    margin-top: -25px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.calendar-box img{
+    width: 40px;
+    margin-top: -50px;
+}
+
+
+#x{
+    position: absolute;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+
+#datetime p {
+    font-size: 18px;
+}
+
+
+#line {
+    padding-bottom: 10px;
+    width: 500px;
+    text-align: center;
+    margin-top: 22px;
+    border-top: 1px solid #d0ff00;
+}
